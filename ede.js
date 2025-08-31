@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Jellyfin danmaku extension
+// @name         Jellyfin danmaku extension (本地专用版)
 // @description  Jellyfin弹幕插件
 // @namespace    https://github.com/RyoLee
 // @author       RyoLee
@@ -10,11 +10,7 @@
 // @updateURL    https://cdn.jsdelivr.net/gh/Izumiko/jellyfin-danmaku@gh-pages/ede.user.js
 // @downloadURL  https://cdn.jsdelivr.net/gh/Izumiko/jellyfin-danmaku@gh-pages/ede.user.js
 // @connect      *
-// @match        *://*/*/web/index.html
-// @match        *://*/web/index.html
-// @match        *://*/*/web/
-// @match        *://*/web/
-// @match        https://jellyfin-web.pages.dev/
+// @match        http://192.168.31.1:8096/*
 // ==/UserScript==
 
 (async function () {
